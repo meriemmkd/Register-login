@@ -1,0 +1,106 @@
+:root {
+    --main-color:#4dd6b6 ;
+}
+
+.main-login {
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background : linear-gradient(to right , white 50%  , #4dd6b6 50%);
+
+}
+
+.login-contain {
+    height: 75vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(236, 236, 236,0.7), rgba(236,236,236,0.3));
+    border-radius: 1rem;
+    margin: 2rem auto;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57 ,57); 
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+    .left-side  , .right-side{
+        margin :2rem ;
+        box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57 ,57); 
+        height: 80%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .loginContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+     
+      }
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    justify-content: center;
+  }
+  .input-container input{
+    height: 1.5em;
+    width: 15em;
+    border-radius: 10px;
+    border-width: 15px;
+    border:white;
+    box-shadow: 0 0 6px rgb(166, 159, 255);
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+  }
+  input:focus{   
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255);
+    outline: 0 none;
+  }
+  .loginContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  .loginBut {
+    height: 4em;
+    width: 24em;
+    margin: 10px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background: #042827;
+    color: white;;
+    border: none;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+  }
+  .loginBut:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 12px rgb(199, 199, 199);
+  }
+  .loginBut p{
+    color:white;
+    font-size: 20px;
+    margin-top: 13px;
+  }
+  
+.right-side h3 {
+    margin-left: 1rem;
+    color: black;
+    margin-bottom: 90px;
+    
+}
+.welcomeImg {
+ height: 100%;
+    width: 70%;
+    margin:  0rem auto;
+
+}
+
+#wel-img {
+    width : 100%;
+    object-fit: cover;
+}

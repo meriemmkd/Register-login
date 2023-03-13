@@ -1,0 +1,77 @@
+.main-register {
+    height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+    background : linear-gradient(to right , #4dd6b6 50%  , white 50%);
+}
+
+.register-contain {
+    height: 90vh;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(236, 236, 236,0.7), rgba(236,236,236,0.3));
+    border-radius: 1rem;
+    margin: 2rem auto;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57 ,57); 
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+}
+.left-side  , .right-side{
+    margin :2rem ;
+    box-shadow: 0.5rem 0.5rem 2rem -1rem rgb(58, 57 ,57); 
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+}
+.registercontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  margin-top: 50px;
+ 
+  }
+  .registercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    justify-content: center;
+  }
+
+  .input-container input{
+    height: 1.5em;
+    width: 15em;
+    border-radius: 10px;
+    border-width: 15px;
+    border:white;
+    box-shadow: 0 0 6px rgb(166, 159, 255);
+    outline: none;
+    padding:10px;
+    font-size: 20px;
+
+  }
+  input:focus{   
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 16px rgb(125, 115, 255);
+    
+  }
+  .welcomeNote {
+    margin-bottom: 170px;
+  }
+
+.welcomImg {
+ height: 100%;
+    width: 70%;
+    margin:  0rem auto;
+
+}
+
+#welcm-img {
+    width : 100%;
+    object-fit: cover;
+}
